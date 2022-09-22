@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-## Background
+## Overview of Project
 
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
@@ -20,7 +20,7 @@ A few weeks after starting his new role, Jeremy is approached by upper managemen
 
     - Methodolgy: Examine the Pr(>|t|) value in the summary aboce for the (Intercept).
 
-    - A2. The intercept is statistically significant at less than 0.05 and not zero. This would indicate that the intercept term explains an amount of variability in the dependent variable when all independent variables are equal to zero. This could mean that other features such as vehicle_weight and ground_clearance may need to be changed to help improve the predictive power. Also, other features may have been left out that need to be included.
+    - A2. The intercept is statistically significant at less than 0.05, but greater than zero. This would indicate that the intercept includes an amount of variability in the dependent variable while all independent variables are equal to zero. This could mean that other features such as vehicle_weight and ground_clearance may need to be changed to help improve the predictive power. Also, other features may have been left out that need to be included.
 
     - Q3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
@@ -70,6 +70,34 @@ A few weeks after starting his new role, Jeremy is approached by upper managemen
 
     - Lot 3 is statistically different from the population mean having a p-value of 0.042
 
+## Study Design: MechaCar vs Competition
+
+* Deliverable 4: Design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+    - The study would involve collecting data on cars that MechaCar competes against in the marketplace. It would include data from different manufacturers over the course of the past three years.
+
+    - Metrics:
+
+        - Selling Price
+        - Fuel Mileage
+        - Safety Ratings
+        - Resale Value
+        - Cost of Ownership
+        - Options/Packages
+    
+    - Hypothesis:
+
+        - Null Hypothesis: MechaCar is priced competitively based on its key factors for the class in which it competes.
+
+        - Alternate Hypothesis: MechaCar is not priced competitively based on its key factors for the class in which it competes.
+
+    - Statistical Test:
+
+        - A multiple linear regression statistical summary would be used to determine which key factors have the highest predictability based on the selling price. Also, which combination of key factors has the greatest impact on the selling price. 
+
+    - Data Needed:
+
+        - A random sample of the cars that MechCar competes with in the marketplace. It would include all the metrics described above and to also include variations of different options/packages.
 
 
 
@@ -80,4 +108,7 @@ A few weeks after starting his new role, Jeremy is approached by upper managemen
 
 
 
-* Deliverable 4: Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
+
+
+
